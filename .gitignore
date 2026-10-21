@@ -1,9 +1,13 @@
-dataset/*.mtx.gz
-dataset/*.tsv.gz
-dataset/*.csv
-dataset/*.xlsx
-dataset/*.rds
-dataset_characterization/*.csv
+# Raw GEO data — download from GSE158055
+dataset/
+GSE155055.csv
+copy.csv
+
+# Large derived data
+*.rds
+*.mtx.gz
+
+# Logs and R artifacts
 nohup.out*
 *.log
 .Rhistory
@@ -11,5 +15,3 @@ nohup.out*
 .Rproj.user
 *.Rproj
 results/*.rds
-GSE155055.csv
-copy.csv

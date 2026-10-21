@@ -1,0 +1,11 @@
+"characteristics: Sample type","n"
+"frozen PBMC",89
+"fresh PBMC",83
+"B cells sorted from frozen PBMC (MACS, STEMCELL 19054)",34
+"fresh Sputum",22
+"CD19+ B cell sorted from fresh PBMC (FACS)",13
+"CD3+ T cell sorted from fresh PBMC (FACS)",13
+"fresh BALF",12
+"CD3+ T cell and CD19+ B cell sorted from fresh PBMC (FACS)",11
+"CD19+ B cell sorted from fresh PBMC (MACS)",6
+"fresh PFMC",1

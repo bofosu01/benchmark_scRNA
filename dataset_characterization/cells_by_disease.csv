@@ -1,0 +1,4 @@
+"disease_group","n_samples","min_cells","median_cells","mean_cells","max_cells"
+"control",20,3673,5597,6339.95,10772
+"mild/moderate",68,356,6003,6203.30882352941,14565
+"severe/critical",84,57,5162,5292.22619047619,18236
