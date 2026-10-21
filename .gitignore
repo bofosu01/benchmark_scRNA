@@ -1,0 +1,15 @@
+dataset/*.mtx.gz
+dataset/*.tsv.gz
+dataset/*.csv
+dataset/*.xlsx
+dataset/*.rds
+dataset_characterization/*.csv
+nohup.out*
+*.log
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+results/*.rds
+GSE155055.csv
+copy.csv
