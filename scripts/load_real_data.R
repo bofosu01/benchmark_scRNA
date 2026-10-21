@@ -1,5 +1,5 @@
 # Load GSE158055 monocyte subset from the core batches and save matrix + metadata
-# Uses scan() streaming to bypass R's 2^31-1 integer limit on the 2.3B non-zero mtx file
+
 
 library(Matrix)
 library(data.table)
@@ -17,7 +17,7 @@ patient_group_path <- "dataset_characterization/samples_per_patient.csv"
 counts_out <- "dataset/counts_mono_core.rds"
 meta_out   <- "dataset/meta_mono_core.rds"
 
-# Read barcodes and features via gzfile (fread fails on gzip in this system)
+# Read barcodes and features via gzfile 
 con_bc <- gzfile(barcodes_path, "r")
 barcodes <- readLines(con_bc)
 close(con_bc)
